@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Fomulário HTML - Curso PHP - eXcript</title>
+</head>
+<body>
+
+<form action="metodo_post.php?xget=50" method="POST">
+<label for="tipo">Tipo: </label>
+	<select name="tipo" type="text" id="tipo">
+		<option value="/">/</option>
+		<option value="@">@</option>
+	</select></br>
+</label>
+<label for="comando">E-mail: </label>
+	<select type="text" name="comando" id="comando">
+		<option value="Command1">Comando 1</option>
+		<option value="Command2">Comando 2</option>
+	</select>
+</label></br>
+<label for="nick">Nick
+<input type="text" name="nick" id="nick"></input> 
+</label></br>
+<input type="submit" value="Criar Comando" id="enviar">
+</form>
+</body>
+</html>

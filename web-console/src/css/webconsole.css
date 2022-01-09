@@ -1,0 +1,54 @@
+@font-face {
+	font-family: "Terminus";
+	src: url("../../../import/TerminusTTF-4.47.0.ttf");
+}
+body { background-color: #000000; }
+::-webkit-scrollbar {
+ width: 12px;
+ height: 12px;
+}
+::-webkit-scrollbar-button {
+ width: 0px;
+ height: 0px;
+}
+::-webkit-scrollbar-thumb {
+ background: #445644;
+ border: 0px none #ffffff;
+ border-radius: 100px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #445644;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #445644;
+}
+::-webkit-scrollbar-track {
+  background: #1e2f20;
+  border: 0px none #ffffff;
+  border-radius: 100px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #1e2f20;
+}
+::-webkit-scrollbar-track:active {
+  background: #1e2f20;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+body, .terminal, .cmd, .terminal .terminal-output div div, .terminal .prompt {
+    color: #839c8a;
+    font-family: Terminus;
+    font-size: unset;
+    line-height: 18px;
+}
+
+a, a:hover, .terminal a, .terminal a:hover { color: #6c71c4; }
+
+.spaced { margin: 15px 0; }
+.spaced-top { margin: 15px 0 0 0; }
+.spaced-bottom { margin: 0 0 15px 0; }
+
+.configure { margin: 20px; }
+.configure .variable { color: #d33682; }
+.configure p, .configure ul { margin: 5px 0 0 0; }
